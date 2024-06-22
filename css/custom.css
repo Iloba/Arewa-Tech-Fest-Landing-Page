@@ -525,6 +525,7 @@ body {
     border-radius: 50%;
     overflow: hidden;
     outline: #73C21F solid 10px;
+   
 }
 
 .sec-4-img{
@@ -551,7 +552,8 @@ body {
     font-style: italic;
 }
 .btn-box{
-    margin-left: 6rem;
+    text-align: center;
+    /* margin-left: 6rem; */
 }
 .who-top{
     margin-top: 4rem;
