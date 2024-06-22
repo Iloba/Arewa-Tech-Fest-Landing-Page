@@ -331,7 +331,7 @@ body {
 }
 .right-section{
     margin-top: 13rem;
-    width: 100%;
+    width: 90%;
     /* margin-left: 3rem; */
     /* margin-right: 13rem; */
 }
@@ -351,7 +351,7 @@ body {
 }
 
 .top-section{
-    /* padding-left: 4rem; */
+    padding-left: 4rem;
     padding-top: 5rem;
 }
 .reg-category h2{

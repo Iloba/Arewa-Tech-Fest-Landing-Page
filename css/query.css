@@ -45,7 +45,8 @@
     .right-section{
         margin-top: 3rem;
         /* margin-left: 1.5rem; */
-        width: 100%;
+        width: 90%;
+        text-align: center;
     }
     .section-4-left{
         width: 100%;
@@ -119,6 +120,11 @@
         text-align: center;
     }
     .white-logo-box{
+        text-align: center;
+    }
+    .top-section{
+        padding-left: 0rem;
+        padding-top: 5rem;
         text-align: center;
     }
 }
