@@ -144,6 +144,9 @@
        text-align: center;
        font-size: 3rem;
    }
+   .wrapper-div{
+       margin: 0 auto;
+   }
 }
 
 @media screen and (max-width: 375px) {
