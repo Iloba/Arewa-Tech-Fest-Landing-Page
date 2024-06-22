@@ -137,6 +137,13 @@
         /* margin-top: 13rem; */
         padding: 4rem 6rem 4rem 6rem;
    }
+   .main-image{
+       text-align: center;
+   }
+   .e-header{
+       text-align: center;
+       font-size: 3rem;
+   }
 }
 
 @media screen and (max-width: 375px) {
