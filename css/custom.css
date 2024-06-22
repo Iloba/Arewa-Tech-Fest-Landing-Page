@@ -554,7 +554,10 @@ body {
     margin-left: 6rem;
 }
 .who-top{
-    margin-top: 5rem;
+    margin-top: 4rem;
+}
+.list-of-who{
+    margin-top: 4rem;
 }
 .who-top p{
     color: white;

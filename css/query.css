@@ -147,6 +147,9 @@
    .wrapper-div{
        margin: 0 auto;
    }
+   .list-of-who{
+    margin-top: 0rem;
+}
 }
 
 @media screen and (max-width: 375px) {
