@@ -325,14 +325,15 @@ body {
     color: var(--orangeText) !important;
 }
 .second-section-image{
-    width: 90%;
+    width: 80%;
     border-radius: 15px; 
     margin-bottom: 4rem;
 }
 .right-section{
     margin-top: 13rem;
-    margin-left: 3rem;
-    margin-right: 13rem;
+    width: 100%;
+    /* margin-left: 3rem; */
+    /* margin-right: 13rem; */
 }
 .text-one{
     font-size: 1.5rem;
@@ -631,7 +632,9 @@ body {
     background-color: #415450;
     clip-path: polygon(0% 26%, 67.76% 25.48%, 71.59% 8.76%, 76.3% 25.25%, 97% 25.25%, 97% 75.25%, 50% 75.25%, 0% 76%);
     color: white;
-    padding: 5rem;
+    padding: 4rem;
+    width: 70%;
+    margin: 0 auto;
     /* height: 200px; */
 }
 .curved-box .curved-text p{
