@@ -338,11 +338,12 @@ body {
     font-size: 1.5rem;
     font-family: 'GT Walsheim Pro', sans-serif;
     margin-bottom: 3rem;
+    font-weight: 300;
 }
 .text-two{
     font-size: 1.5rem;
     font-family: 'GT Walsheim Pro', sans-serif;
-    font-weight: light;  
+    font-weight: 300;
 }
 .section-three{
    background-color: var(--sectionThreeBg);
@@ -560,12 +561,15 @@ body {
     padding: 10px 20px 10px 20px;
     border-bottom: 1px solid #1F3409;
     margin-bottom: .5rem;
+    font-family: 'GT Walsheim Pro', sans-serif;
+    
    
 }
 .five-item h4{
     font-size: 1.6rem;
     text-transform: uppercase;
     font-family: 'GT Walsheim Pro', sans-serif;
+    font-weight: 300;
 
 }
 .what-img{
@@ -628,13 +632,14 @@ body {
 .curved-box .curved-text p{
     color: white;
     font-family: 'GT Walsheim Pro', sans-serif;
+    font-weight: 300;
 }
 
 
 .image-container {
-    text-align: center;
-    margin: 20px;
-    width: 70%; /* Adjust as needed */
+    text-align: left;
+    margin: 50px;
+    width: 80%; /* Adjust as needed */
 }
 
 .image-wrapper {
@@ -655,22 +660,148 @@ body {
     width: 100%;
     height: 100%;
     object-fit: contain;
-    margin-top: 3rem;
+    margin-top: 3.5rem;
 }
 
 .caption {
-    margin-top: 10px;
+    margin-left: 2.5rem;
+    margin-top: -3.2rem;
+    font-family: 'GT Walsheim Pro', sans-serif;
+}
+.main-img-box{
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow for a nice effect */
+    clip-path: polygon(10% 23.25%, 43.38% 23.25%, 50% 10%, 64.81% 10%, 90% 10%, 90% 90%, 10% 90%);
+    height: 100%;
+}
+.what-img{
+    width: 100%;
 }
 
 .caption h3 {
     font-size: 1.1em;
     font-weight: bold;
-    margin: 10px 0 5px 0;
     color: var(--darkText);
     font-family: 'GT Walsheim Pro', sans-serif;
 }
 
 .caption p {
     font-size: 0.9em;
-    color: #666; /* Adjust color as needed */
+    color: #666; 
+}
+
+.section-eight{
+    background-color: #F9F8F3;
+    padding-bottom: 3rem;
+}
+.s-main{
+    padding: 5rem;
+}
+.hand-circle h2{
+    font-size: 5rem;
+  
+}
+.hand-circle{
+    background-color: #9FD79A;
+    border-radius: 100%;
+    width: 90px;
+    height: 90px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    margin-bottom: 3rem;
+}
+.sponsorship h1{
+    text-transform: uppercase;
+    font-size: 4rem;
+    font-family: 'Prompt', sans-serif;
+}
+.upper-case-words{
+    text-transform: uppercase;
+    font-size: 1.6rem;
+    font-family: 'GT Walsheim Pro';
+}
+.s-text{
+    font-family: 'GT Walsheim Pro';
+    font-weight: 300;
+}
+.section-nine{
+    background:   radial-gradient(circle at center, #043d1e, rgba(0, 0, 0, 0.8)), /* Light green radial overlay */
+    url('../images/section-4-bg.png') no-repeat center center;
+    padding-bottom: 4rem;
+}
+.main-nine{
+    padding: 6rem 3rem 1rem 3rem;
+}
+.header-box{
+    display: flex;
+   
+}
+
+.text-s-box{
+    font-family: 'Prompt', sans-serif;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.s-level{
+    width: 60px;
+}
+.s-fee{
+    font-size: 3rem;
+}
+.s-type{
+    font-size: 1.5rem;
+    font-weight: 300;
+}
+.s-words{
+    font-weight: 300;
+}
+.header-style-one{
+    background-color: #FAF5ED;
+    border: none;
+}
+.s-text-body{
+    font-family: 'GT Walsheim Pro', sans-serif;
+    font-weight: 300;
+}
+.card-body{
+    padding: 2rem;
+}
+.last-s-text{
+    font-family: 'GT Walsheim Pro', sans-serif;
+    font-weight: 300;  
+}
+.need-s{
+    font-size: 4rem;
+    color: white;
+    font-family: 'Prompt', sans-serif;
+}
+.gold{
+    background-color: #FDF6F6;
+}
+.silver{
+    background-color: #D5D6D9;
+}
+.in-kind{
+   background-color: #E6E6E6;
+}
+.last-div{
+    padding: 6rem 3rem 6rem 3rem;
+}
+.powered-heading{
+    font-family: 'GT Walsheim Pro', sans-serif;
+    font-size: 2.4rem;
+}
+.powered-list{
+    display: flex;
+}
+.powered-box{
+    background-color: #EBEBEB;
+    height: 93px;
+    width: 208px;
+    border-radius: 8px;
+    margin-left: 2rem;
+}
+.align-center-at-the-bottom{
+    margin-left: 10rem;
 }

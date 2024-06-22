@@ -83,6 +83,38 @@
        text-align: center;
         margin: 0 auto;
     }
+    .caption {
+        margin-left: 0rem;
+    }
+    .s-up{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .last-s-text{
+        text-align: center;
+    }
+    .need-s{
+        text-align: center;
+    }
+    .center-on-mobile{
+        width: 100%;
+        margin: 0 auto;
+        margin-bottom: 2rem;
+    }
+    .card{
+        margin-bottom: 1rem;
+    }
+    .powered-list{
+        display: block;
+     
+    }
+    .powered-box{
+        margin: 1rem;
+        width: 100%;
+    }
+    .align-center-at-the-bottom{
+        margin-left: 0rem;
+    }
 }
 
 @media screen and (max-width: 375px) {
