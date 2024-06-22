@@ -300,7 +300,7 @@ body {
 }
 .section-two{
     background-color: var(--whiteText);
-    padding: 0rem 4rem 0rem 4rem;
+    /* padding: 0rem 4rem 0rem 4rem; */
 }
 .left-section{
     padding-left: 4rem;
@@ -505,10 +505,12 @@ body {
 
 
 .sec-4-img{
-    width: 200%;
+    width: 2200px;
     /* border-radius: 100%; */
-    margin-top: 20px;
+    margin-top: 3rem;
     object-fit: cover; 
+    object-position: center;
+    padding: 3rem;
 
 }
 .who-should-attend{
@@ -540,10 +542,15 @@ body {
     text-transform: uppercase;
     clip-path: polygon(0% 45.25%, 80.75% 45.25%, 88.77% 54.21%, 88.77% 64.16%, 47.75% 64.16%, 6.73% 64.16%, 0% 59.18%);
     background-color: green;
-    padding:10rem;
-    /* height: 100px; */
-    border: none;
+    height: 100px;
+    padding: 10rem;
     border-radius: 10px;
+    border: 2px solid red; /* Inner border color and width */
+    box-sizing: border-box;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ 
 
 }
 .sf-1{
@@ -562,8 +569,6 @@ body {
     border-bottom: 1px solid #1F3409;
     margin-bottom: .5rem;
     font-family: 'GT Walsheim Pro', sans-serif;
-    
-   
 }
 .five-item h4{
     font-size: 1.6rem;
