@@ -303,7 +303,7 @@ body {
     /* padding: 0rem 4rem 0rem 4rem; */
 }
 .left-section{
-    padding-left: 4rem;
+    /* padding-left: 4rem; */
 }
 .upper-text{
     padding-top: 6rem;
@@ -329,9 +329,13 @@ body {
     border-radius: 15px; 
     margin-bottom: 4rem;
 }
+.second-box{
+     /* margin-top: 13rem; */
+     padding: 4rem 6rem 4rem 6rem;
+}
 .right-section{
-    margin-top: 13rem;
-    width: 90%;
+    padding-top: 13rem;
+    /* width: 90%; */
     /* margin-left: 3rem; */
     /* margin-right: 13rem; */
 }

@@ -43,10 +43,11 @@
         font-size: 2.3rem;
     }
     .right-section{
-        margin-top: 3rem;
-        /* margin-left: 1.5rem; */
+        margin-top: 0rem;
+        margin-left: 1.5rem;
         width: 90%;
         text-align: center;
+        padding-top: 0rem;
     }
     .section-4-left{
         width: 100%;
@@ -132,6 +133,10 @@
         margin: 0 auto;
         text-align: center;
     }
+    .second-box{
+        /* margin-top: 13rem; */
+        padding: 4rem 6rem 4rem 6rem;
+   }
 }
 
 @media screen and (max-width: 375px) {
