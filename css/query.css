@@ -152,6 +152,9 @@
    .list-of-who{
     margin-top: 0rem;
 }
+.list-el{
+    height: 80px;
+}
 }
 
 @media screen and (max-width: 375px) {
