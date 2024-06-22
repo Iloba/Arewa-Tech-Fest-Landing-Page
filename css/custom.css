@@ -549,18 +549,22 @@ body {
 .list-el{
     color: #fff;
     text-transform: uppercase;
-    clip-path: polygon(0% 45.25%, 80.75% 45.25%, 88.77% 54.21%, 88.77% 64.16%, 47.75% 64.16%, 6.73% 64.16%, 0% 59.18%);
-    background-color: green;
-    height: 100px;
-    padding: 10rem;
-    border-radius: 10px;
-    border: 2px solid red; /* Inner border color and width */
-    box-sizing: border-box;
+    /* background-color: red; */
+    border: 1px solid #73C21F; 
+    border-radius: 0% 14% 25% 11% / 25% 74% 0% 55%;
+    height: 50px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
     align-items: center;
- 
-
+    padding: 1.7rem;
+    margin-bottom: 1rem;
+}
+.text-heading-itself{
+    color: #fff;
+}
+.list-itemss{
+    font-family: 'Prompt', sans-serif;
+    font-size: 1.7rem;
 }
 .sf-1{
     padding-left: 3rem;
