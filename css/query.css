@@ -135,6 +135,8 @@
         margin: 0 auto;
         text-align: center;
         width: 100%;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
     }
     .second-box{
         /* margin-top: 13rem; */
