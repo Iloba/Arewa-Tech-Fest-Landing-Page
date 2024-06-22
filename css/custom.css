@@ -350,6 +350,10 @@ body {
    background-color: var(--sectionThreeBg);
 }
 
+#black-kano-text{
+    color: black !important;
+}
+
 .top-section{
     padding-left: 4rem;
     padding-top: 5rem;
