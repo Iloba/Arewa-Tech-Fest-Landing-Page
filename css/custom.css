@@ -531,9 +531,9 @@ body {
 }
 .who-top p{
     color: white;
-    font-size: 24px;
-    font-weight: 300;
+    font-size: 1.8rem;
     font-family: 'GT Walsheim Pro', sans-serif;
+    font-weight: 200;
 }
 .list-el{
     color: #fff;
@@ -804,4 +804,31 @@ body {
 }
 .align-center-at-the-bottom{
     margin-left: 10rem;
+}
+.section-ten{
+    padding-bottom: 3rem;
+}
+.footer{
+    background:   radial-gradient(circle at center, #043d1e, rgba(0, 0, 0, 0.8)), /* Light green radial overlay */
+    url('../images/section-4-bg.png') no-repeat center center;
+    padding: 4rem 2rem 4rem 2rem;
+}
+.white-logo{
+    width: 60%;
+}
+.footer-link-box{
+    margin-top: 3rem;
+    font-family: 'GT Walsheim Pro', sans-serif;
+    color: white;
+}
+.footer-link{
+    color: white;
+    font-family: 'GT Walsheim Pro', sans-serif;
+    font-size: 1.6rem;
+}
+.f-link-box{
+    margin-bottom: 3rem;
+}
+.contact{
+    color: #F0F89C;
 }
