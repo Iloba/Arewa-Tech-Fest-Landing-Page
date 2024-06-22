@@ -155,6 +155,9 @@
 .list-el{
     height: auto;
 }
+.master-class-title{
+    width: 200px;
+}
 }
 
 @media screen and (max-width: 375px) {
