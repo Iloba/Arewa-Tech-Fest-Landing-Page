@@ -394,13 +394,7 @@ body {
     background-color: var(--whiteText);
     padding: 10px 20px 10px 20px;
 }
-.event-menu{
-  
-}
 
-.main-exhibition{
-    /* background-color: var(--whiteText); */
-}
 .main-masterclass{
     background-color: var(--whiteText);
     padding: 2rem;
@@ -553,7 +547,7 @@ body {
 }
 .btn-box{
     text-align: center;
-    /* margin-left: 6rem; */
+    margin-left: -9rem;
 }
 .who-top{
     margin-top: 4rem;
