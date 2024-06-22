@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,11 +11,11 @@
     <link rel="stylesheet" href="css/query.css">
     <link rel="icon" href="images/logo.png">
 </head>
+
 <body>
     <div class="header">
         <nav class="navbar navbar-expand-lg bg-white p-2 p-md-0">
-            <a class="navbar-brand " href=""><img src="images/logo.png"
-                    class="logo-nav" alt="Aocmi"></a>
+            <a class="navbar-brand p-md-3" href=""><img src="images/logo.png" class="logo-nav" alt="Aocmi"></a>
             <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
                 aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon">
@@ -27,7 +28,7 @@
                         <a class="nav-link" href="">About the Tech Fest</a>
                     </li>
                     <li class="nav-item">
-                        <a class="nav-link" href="">Book a space</a>
+                        <a class="nav-link" href="">Book a Space</a>
                     </li>
                     <li class="nav-item">
                         <a class="nav-link" href="">Sponsorship</a>
@@ -45,19 +46,246 @@
             </div>
         </nav>
     </div>
+    <div class="hero-section">
+        <div class="side-display">
+            <div class="text-intro">
+                <h1>AREWA TECH <br> FEST 2024 </h1> <br>
+            </div>
+            <div class="theme-section">
+                <h3 class="theme-heading">THEME:</h3>
+                <div class="theme">
+                    <h3>Empowering Innovation for <br> Economic Growth</h3>
+                </div>
+            </div>
+            <div class="reg-button-section">
+                <a href="" class="btn hero-reg-btn">Register Now</a>
+            </div>
+            <div class="bottom-display">
+                <div class="bottom-left-display">
+                    <!-- <div class="date-section"> -->
+                    <div class="date">
+                        21st - 22nd August, 2024
+                    </div>
+                    <div class="time">
+                        9:00AM PROMPT
+                    </div>
+                    <div class="location">
+                        <i class="fas fa-map-marker-alt"></i> KANO NG
+                    </div>
+                    <!-- </div> -->
+                </div>
+                <div class="bottom-right-display">
+                    <h1>22d : 16h : 10m</h1>
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div class="section-two">
+        <div class="row">
+            <div class="col-md-6">
+                <div class="left-section">
+                    <div class="upper-text">
+                        <h6 class="wysk">What you should know about</h6>
+                        <h1 class="e-header"> AREWA TECH FEST <br> <span class="red-2024">2024</span></h1>
+                    </div>
+                    <div class="main-image">
+                        <img class="img-fluid second-section-image" src="images/section-2-image.jpeg"
+                            alt="Arewa Tech Fest">
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6">
+                <div class="right-section">
+                    <div class="text-one">
+                        Arewa Tech Fest is a pioneering technology festival designed to ignite innovation, inspire tech
+                        enthusiasts, and build a thriving ecosystem for technology-driven solutions across Northern
+                        Nigeria. With its inaugural edition taking place in Kano, this multi-city festival aims to
+                        foster collaboration, showcase cutting-edge technologies, and support the growth of tech
+                        startups in the region.
+                    </div>
+                    <div class="text-two">
+                        Our mission is to create a platform that connects innovators, entrepreneurs, investors, and
+                        industry leaders, fostering a vibrant tech community in Northern Nigeria. We aim to empower the
+                        next generation of tech talent, drive economic growth, and bridge the gap between tradition and
+                        modern technology.
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="section-three">
+        <div class="top-section">
+            <div class="reg-category">
+                <h2>REGISTRATION <br>
+                    <span class="category-text">CATEGORIES</span>
+                </h2>
+            </div>
+            <div class="event-menu text-center">
+                <div class="menu-box">
+                    <button class="btn btn-event active-event" id="masterclassBtn"
+                        onclick="showSection('masterclass', this)">Masterclasses</button>
+                    <button class="btn btn-event" id="exhibitionBtn"
+                        onclick="showSection('exhibition', this)">Exhibition</button>
+                    <button class="btn btn-event" id="hackathonBtn"
+                        onclick="showSection('hackathon', this)">Hackathons</button>
+                </div>
+            </div>
+            <div class="container ">
+                <div class="section justify-content-center" id="exhibition">
+                    <div class="row justify-content-center">
+                        <div class="col-md-4">
+                            <div class="main-exhibition">
+                                <h2>Exhibition Section</h2>
+                                <p>This is the exhibition content.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="main-exhibition">
+                                <h2>Exhibition Section</h2>
+                                <p>This is the exhibition content.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="main-exhibition">
+                                <h2>Exhibition Section</h2>
+                                <p>This is the exhibition content.</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+                <div class="section" id="masterclass">
+                   <div class="container">
+                    <div class="row justify-content-center">
+                        <div class="col-md-4">
+                            <div class="main-masterclass">
+                                <div class="main-masterclass-content">
+                                    <div class="master-class-title">
+                                        <p>Masterclass</p>
+                                    </div>
+                                    <div class="master-class-topic">
+                                        <h1>Empowering Innovation for Economic Growth</h1>
+                                    </div>
+                                    <div class="master-class-instructor">
+                                        <h5>By <span class="master-class-author">John Doe </span></h5>
+                                    </div>
+                                </div>
+                                <div class="date-and-cta">
+                                    <div>
+                                        <div class="master-class-date">
+                                            <h4>TUE, 22ND AUG, 2024 10:00 AM</h4>
+                                        </div>
+                                        
+                                    </div>
+                                    <div>
+                                        <a href="" class="btn arrow-btn"><i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                          <div class="col-md-4">
+                            <div class="main-masterclass">
+                                <div class="main-masterclass-content">
+                                    <div class="master-class-title">
+                                        <p>Masterclass</p>
+                                    </div>
+                                    <div class="master-class-topic">
+                                        <h1>Empowering Innovation for Economic Growth</h1>
+                                    </div>
+                                    <div class="master-class-instructor">
+                                        <h5>By <span class="master-class-author">John Doe </span></h5>
+                                    </div>
+                                </div>
+                                <div class="date-and-cta">
+                                    <div>
+                                        <div class="master-class-date">
+                                            <h4>TUE, 22ND AUG, 2024 10:00 AM</h4>
+                                        </div>
+                                        
+                                    </div>
+                                    <div>
+                                        <a href="" class="btn arrow-btn"><i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="main-masterclass">
+                                <div class="main-masterclass-content">
+                                    <div class="master-class-title">
+                                        <p>Masterclass</p>
+                                    </div>
+                                    <div class="master-class-topic">
+                                        <h1>Empowering Innovation for Economic Growth</h1>
+                                    </div>
+                                    <div class="master-class-instructor">
+                                        <h5>By <span class="master-class-author">John Doe </span></h5>
+                                    </div>
+                                </div>
+                                <div class="date-and-cta">
+                                    <div>
+                                        <div class="master-class-date">
+                                            <h4>TUE, 22ND AUG, 2024 10:00 AM</h4>
+                                        </div>
+                                        
+                                    </div>
+                                    <div>
+                                        <a href="" class="btn arrow-btn"><i class="fas fa-arrow-right"></i></a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                      
+                    </div>
+                   </div>
+                </div>
+                <div class="section" id="hackathon">
+                    <div class="row justify-content-center">
+                        <div class="col-md-4">
+                            <div class="main-hackathon">
+                                <h2>Hackathon Section</h2>
+                                <p>This is the Hackathon content.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="main-hackathon">
+                                <h2>Hackathon Section</h2>
+                                <p>This is the Hackathon content.</p>
+                            </div>
+                        </div>
+                        <div class="col-md-4">
+                            <div class="main-hackathon">
+                                <h2>Hackathon Section</h2>
+                                <p>This is the Hackathon content.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+
     <script src="https://code.jquery.com/jquery-3.6.0.min.js"
-    integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
-</script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
-    integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
-</script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
-    integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
-</script>
-<script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
-<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
-<script>
-    AOS.init();
-</script>
+        integrity="sha256-/xUj+3OJU5yExlq6GSYGSHk7tPXikynS7ogEvDej/m4=" crossorigin="anonymous"></script>
+    </script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.12.9/dist/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous">
+        </script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous">
+        </script>
+    <script src="https://kit.fontawesome.com/42d5adcbca.js" crossorigin="anonymous"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+    <script>
+        AOS.init();
+    </script>
+    <script src="js/index.js"></script>
 </body>
+
 </html>
