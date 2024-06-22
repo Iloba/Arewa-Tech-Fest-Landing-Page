@@ -456,3 +456,221 @@ body {
 .master-class-author{
     font-style: italic;
 }
+.price-and-cta{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 3rem;
+}
+
+.exhibition-price{
+    color: #EA6A41;
+    
+}
+.exhibition-price h4{
+    font-family: 'GT Walsheim Pro';
+    font-weight: 700;
+}
+.ex-image{
+
+}
+.exhibition-title {
+    margin-top: 1rem;
+}
+.exhibition-title p{
+    font-family: 'GT Walsheim Pro';
+    font-weight: 300;
+}
+.booth-3{
+    width: 70%;
+}
+.event-deliverables{
+    margin-bottom: 10rem;
+}
+.section-four{
+    background:   radial-gradient(circle at center, #043d1e, rgba(0, 0, 0, 0.8)), /* Light green radial overlay */
+    url('../images/section-4-bg.png') no-repeat center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding-bottom: 5rem;
+}
+.image-box-1{
+    width: 300px; 
+    height: 300px;
+    border-radius: 50%; 
+    overflow: hidden;
+    border: 7px solid #73C21F;
+    transition: transform 0.2s ease-in-out;
+}
+
+
+.sec-4-img{
+    width: 200%;
+    /* border-radius: 100%; */
+    margin-top: 20px;
+    object-fit: cover; 
+
+}
+.who-should-attend{
+    color: #fff;
+    margin-top: 3rem;
+}
+.who-should-attend h2{
+    font-size: 3.5rem;
+    text-transform: uppercase;
+    margin-bottom: 3rem;
+}
+.a-italics{
+    font-style: italic;
+}
+.btn-box{
+    margin-left: 6rem;
+}
+.who-top{
+    margin-top: 4rem;
+}
+.who-top p{
+    color: white;
+    font-size: 24px;
+    font-weight: 300;
+    font-family: 'GT Walsheim Pro', sans-serif;
+}
+.list-el{
+    color: #fff;
+    text-transform: uppercase;
+    clip-path: polygon(0% 45.25%, 80.75% 45.25%, 88.77% 54.21%, 88.77% 64.16%, 47.75% 64.16%, 6.73% 64.16%, 0% 59.18%);
+    background-color: green;
+    padding:10rem;
+    /* height: 100px; */
+    border: none;
+    border-radius: 10px;
+
+}
+.sf-1{
+    padding-left: 3rem;
+    padding-top: 4rem;
+}
+.section-five{
+    padding-bottom: 4rem;
+}
+.section-five-first h1{
+    font-family: 'Prompt', sans-serif;
+    font-size: 3.5rem;
+}
+.five-item{
+    padding: 10px 20px 10px 20px;
+    border-bottom: 1px solid #1F3409;
+    margin-bottom: .5rem;
+   
+}
+.five-item h4{
+    font-size: 1.6rem;
+    text-transform: uppercase;
+    font-family: 'GT Walsheim Pro', sans-serif;
+
+}
+.what-img{
+    width: 70%;
+    margin-top: 6rem;
+    margin-left: 2rem;
+}
+.section-six{
+    background:   radial-gradient(circle at center, #043d1e, rgba(0, 0, 0, 0.8)), /* Light green radial overlay */
+    url('../images/section-4-bg.png') no-repeat center center;
+    padding-bottom: 10rem;
+}
+.expected-outcome{
+    margin-top: 4rem;
+
+}
+.expected-outcome h1{
+    color: white;
+    font-size: 4rem;
+}
+.expectation{
+    color: white;
+    margin-bottom: 3rem;
+    font-family: 'GT Walsheim Pro', sans-serif;
+    font-weight: 300;
+    /* margin-top: 5rem; */
+}
+#f-exp{
+       margin-top: 5rem;
+}
+.ex-1{
+    color: #FFBD50;
+}
+.ex-2{
+    color: #73C21F
+}
+.ex-3{
+  color:  #4BF0A5;
+}
+.ex-4{
+  color:  #E86B35
+}
+/* <i class="fas fa-check-circle"></i> */
+
+.speakers{
+    text-transform: uppercase;
+    font-family: 'Prompt', sans-serif;
+    margin-top: 4rem;
+    font-size: 3.8rem;
+    font-weight: 500;
+}
+
+.curved-box{
+    background-color: #415450;
+    clip-path: polygon(0% 26%, 67.76% 25.48%, 71.59% 8.76%, 76.3% 25.25%, 97% 25.25%, 97% 75.25%, 50% 75.25%, 0% 76%);
+    color: white;
+    padding: 5rem;
+    /* height: 200px; */
+}
+.curved-box .curved-text p{
+    color: white;
+    font-family: 'GT Walsheim Pro', sans-serif;
+}
+
+
+.image-container {
+    text-align: center;
+    margin: 20px;
+    width: 70%; /* Adjust as needed */
+}
+
+.image-wrapper {
+    position: relative;
+    width: 100%;
+    padding-top: 150%; /* Aspect ratio to control height */
+    overflow: hidden;
+    border-radius: 15px; /* Adjust the radius to get the curved edges */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Optional: Add some shadow for a nice effect */
+    clip-path: polygon(10% 23.25%, 43.38% 23.25%, 50% 10%, 64.81% 10%, 90% 10%, 90% 90%, 10% 90%);
+    background-color: black;
+}
+
+.image-wrapper img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    margin-top: 3rem;
+}
+
+.caption {
+    margin-top: 10px;
+}
+
+.caption h3 {
+    font-size: 1.1em;
+    font-weight: bold;
+    margin: 10px 0 5px 0;
+    color: var(--darkText);
+    font-family: 'GT Walsheim Pro', sans-serif;
+}
+
+.caption p {
+    font-size: 0.9em;
+    color: #666; /* Adjust color as needed */
+}

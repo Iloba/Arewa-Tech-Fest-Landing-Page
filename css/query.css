@@ -47,6 +47,42 @@
         margin-left: 1.5rem;
         width: 100%;
     }
+    .section-4-left{
+        width: 100%;
+        margin: 0 auto;
+    }
+    .who-should-attend{
+        text-align: center;
+    }
+    .image-box-1{
+        margin: 0 auto;
+    }
+    .btn-box{
+        width: 100%;
+        margin-left: 17rem;
+    }
+    .what-img{
+        margin: 0 auto;
+        text-align: center;
+    }
+    .expectation{
+        width: 100%;
+        margin: 0 auto;
+        text-align: center;
+        margin-bottom: 3rem;
+    }
+    .expected-outcome h1{
+        text-align: center;
+    }
+    .main-img-box{
+        text-align: center;
+        margin-top: 3rem;
+    }
+    .image-container {
+       width: 80%;
+       text-align: center;
+        margin: 0 auto;
+    }
 }
 
 @media screen and (max-width: 375px) {
