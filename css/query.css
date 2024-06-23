@@ -136,8 +136,8 @@
         text-align: center;
         width: 100%;
         height: auto;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
+        /* padding-top: 1rem;
+        padding-bottom: 1rem; */
     }
     .second-box{
         /* margin-top: 13rem; */
@@ -209,14 +209,15 @@
         height: auto;
         padding: 1rem;
         font-size: 1.4rem;
-        display: none;
+       
     }
     .curved-box .curved-text p{
         width: 100%;
         font-size: 1.4rem;
-        padding-top: 2rem;
-        padding-bottom: 2rem;
+        /* padding-top: 2rem;
+        padding-bottom: 2rem; */
         font-size: 1.3rem;
+        /* padding: 1rem; */
     }
     .btn-box{
         margin-left: 4rem;
@@ -233,8 +234,8 @@
         text-align: center;
         width: 100%;
         height: auto;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
+        /* padding-top: 1rem;
+        padding-bottom: 1rem; */
     }
 }
 
@@ -259,8 +260,8 @@
         text-align: center;
         width: 100%;
         height: auto;
-        padding-top: 1rem;
-        padding-bottom: 1rem;
+        /* padding-top: 1rem;
+        padding-bottom: 1rem; */
     }
     .curved-box .curved-text p{
         width: 100%;
