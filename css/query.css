@@ -165,6 +165,15 @@
 .wysk{
     text-align: center;
 }
+.reg-category h2{
+    font-size: 3rem;
+}
+.sponsorship h1{
+    font-size: 3rem; 
+}
+.need-s{
+    font-size: 3rem; 
+}
 }
 
 @media screen and (max-width: 375px) {
