@@ -879,3 +879,6 @@ body {
 .contact{
     color: #F0F89C;
 }
+.footer-link:hover{
+    color: #fff;
+}
