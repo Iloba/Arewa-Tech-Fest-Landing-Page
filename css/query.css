@@ -162,6 +162,9 @@
 .master-class-title{
     width: 200px;
 }
+.wysk{
+    text-align: center;
+}
 }
 
 @media screen and (max-width: 375px) {
