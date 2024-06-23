@@ -661,6 +661,10 @@ body {
     font-size: 3.8rem;
     font-weight: 500;
 }
+.main-curved-box{
+    width: 100%;
+    display: block;
+}
 
 .curved-box{
     background-color: #415450;
