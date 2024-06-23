@@ -206,7 +206,7 @@
         font-size: 4rem;
         line-height: 50px;
     }
-    .curved-box{
+    /* .curved-box{
         width: 100%;
         display: block;
         margin: 0 auto;
@@ -216,16 +216,16 @@
         font-size: 1.4rem;
         clip-path: polygon(0% 26%, 67.76% 25.48%, 71.59% 8.76%, 76.3% 25.25%, 97% 25.25%, 97% 75.25%, 50% 75.25%, 0% 76%);
        
-    }
-    .curved-box .curved-text p{
+    } */
+    /* .curved-box .curved-text p{
         width: 100%;
         font-size: 1.4rem;
         /* padding-top: 2rem;
         padding-bottom: 2rem; */
-        font-size: 1.3rem;
+        /* font-size: 1.3rem; */
         /* padding: 1rem; */
         
-    }
+    } */
     .btn-box{
         margin-left: 4rem;
     }
@@ -235,7 +235,7 @@
         font-size: 4rem;
         line-height: 50px;
     }
-    .curved-box{
+    /* .curved-box{
         display: block;
         margin: 0 auto;
         text-align: center;
@@ -244,7 +244,7 @@
         clip-path: polygon(0% 26%, 67.76% 25.48%, 71.59% 8.76%, 76.3% 25.25%, 97% 25.25%, 97% 75.25%, 50% 75.25%, 0% 76%);
         /* padding-top: 1rem;
         padding-bottom: 1rem; */
-    }
+    } */
 }
 
 @media screen and (max-width: 344px) {
@@ -262,7 +262,7 @@
         background-position: left center;
         color: var(--whiteText);
     }
-    .curved-box{
+    /* .curved-box{
         display: block;
         margin: 0 auto;
         text-align: center;
@@ -272,14 +272,14 @@
         clip-path: polygon(0% 26%, 67.76% 25.48%, 71.59% 8.76%, 76.3% 25.25%, 97% 25.25%, 97% 75.25%, 50% 75.25%, 0% 76%);
         /* padding-top: 1rem;
         padding-bottom: 1rem; */
-    }
-    .curved-box .curved-text p{
+    } */
+    /* .curved-box .curved-text p{
         width: 100%;
         padding-top: 2rem;
         padding-bottom: 2rem;
         display: flex;
         font-size: 1rem;
-    }
+    } */
 }
 
 @media  screen and (max-width: 768px) {
