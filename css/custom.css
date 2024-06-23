@@ -519,7 +519,6 @@ body {
     border-radius: 50%;
     overflow: hidden;
     outline: #73C21F solid 10px;
-   
 }
 
 .sec-4-img{
@@ -546,8 +545,16 @@ body {
     font-style: italic;
 }
 .btn-box{
-    text-align: center;
-    margin-left: -9rem;
+    /* text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center; */
+    margin-left: 7rem;
+}
+.btn-box .hero-reg-btn{
+    /* display: flex;
+    justify-content: center;
+    align-items: center; */
 }
 .who-top{
     margin-top: 4rem;
@@ -668,6 +675,7 @@ body {
     color: white;
     font-family: 'GT Walsheim Pro', sans-serif;
     font-weight: 300;
+    font-size: 1.3rem;
 }
 
 
